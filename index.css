@@ -41,7 +41,7 @@ nav{
     margin: 15px;
 }
 .line{
-    width: 315px;
+    width: 25%;
     height: 2px;
     margin-top: 9px;
     background-color: #a9a8a7;
@@ -89,7 +89,7 @@ nav{
 
 }
 .button{
-    margin-top: 10px;
+    margin: 10px 0 0 40px ;
     display: flex;
     justify-content: end;
 }
@@ -183,18 +183,18 @@ nav{
     position: relative;
     top: 35PX;
     z-index: -1;
-    right: 253PX;
+    right: 29.3%;
     height: 400px;
     width: 2px;
     background-color: #a9a8a7;
 }
-
-
-
 /* On hover or click animation */
 .feature-item>li:hover{
     color: #000;
 }
 .circle{
     background-color: #000;
+}
+.nav-icon{
+    display: none;
 }
